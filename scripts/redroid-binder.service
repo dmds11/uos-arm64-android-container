@@ -1,0 +1,9 @@
+[Unit]
+Description=Prepare binder devices for redroid Android container
+After=local-fs.target
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/redroid-binder-setup.sh
+RemainAfterExit=yes
+[Install]
+WantedBy=multi-user.target
