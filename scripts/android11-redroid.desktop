@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=安卓11 (redroid)
+Name[zh_CN]=安卓11 (redroid)
+Comment=一键启动/关闭安卓 11 容器与投屏
+Exec=/home/nlx/android-exp/redroid-toggle.sh
+Icon=phone
+Terminal=false
+Categories=Utility;
